@@ -4,8 +4,8 @@ const miNuevoContenedor = new Contenedor(`./productos.json`);
 
 
 const producto = {
-  title: "cartuchera",
-  precio: 44.80,
+  title: "mapa",
+  precio: 888.88,
 };
 
 const main = async () => {
@@ -13,7 +13,5 @@ const main = async () => {
   console.log(id)
   const list = await miNuevoContenedor.getAll()
   console.log(list)
- // await miNuevoContenedor.deleteAll()
-  
 }
 main();

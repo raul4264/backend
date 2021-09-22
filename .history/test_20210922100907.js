@@ -13,7 +13,7 @@ const main = async () => {
   console.log(id)
   const list = await miNuevoContenedor.getAll()
   console.log(list)
- // await miNuevoContenedor.deleteAll()
+  await miNuevoContenedor.deleteAll()
   
 }
 main();

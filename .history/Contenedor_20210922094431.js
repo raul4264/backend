@@ -37,15 +37,7 @@ class Contenedor {
       const listaDeProductos = JSON.parse(contenido);
       return listaDeProductos
     } catch (error) {
-        console.error( error);
-      }
-  
-  }
-  async deleteAll() {
-    try{
-    await fs.promises.writeFile(`./${this.file}`,'')
-    } catch (error) {
-        console.error( error);
+        console.error('ERROR: ', + error);
       }
   
   }
@@ -53,6 +45,6 @@ class Contenedor {
 /*  getById(Number) {}
 
   deleteById(Number) {}
-  */
+  deleteAll() {}*/
 
 module.exports = Contenedor;

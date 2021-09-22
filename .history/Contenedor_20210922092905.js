@@ -31,28 +31,10 @@ class Contenedor {
       console.error(error);
     }
   }
-  async getAll() {
-    try{
-      const contenido = await fs.promises.readFile(`./${this.file}`, "utf-8");
-      const listaDeProductos = JSON.parse(contenido);
-      return listaDeProductos
-    } catch (error) {
-        console.error( error);
-      }
-  
-  }
-  async deleteAll() {
-    try{
-    await fs.promises.writeFile(`./${this.file}`,'')
-    } catch (error) {
-        console.error( error);
-      }
-  
-  }
 }
 /*  getById(Number) {}
-
+  getAll() {}
   deleteById(Number) {}
-  */
+  deleteAll() {}*/
 
 module.exports = Contenedor;

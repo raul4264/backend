@@ -1,17 +1,22 @@
 [
   {
-    "title": "escuadra",
-    "precio": 123,
+    "title": "cartuchera",
+    "precio": 44.8,
     "id": 1
   },
   {
-    "title": "escuadra",
-    "precio": 123,
+    "title": "cartuchera",
+    "precio": 44.8,
     "id": 2
   },
   {
-    "title": "escuadra",
-    "precio": 123,
+    "title": "cartuchera",
+    "precio": 44.8,
     "id": 3
+  },
+  {
+    "title": "cartuchera",
+    "precio": 44.8,
+    "id": 4
   }
 ]
