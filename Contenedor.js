@@ -49,10 +49,22 @@ class Contenedor {
       }
   
   }
-}
-/*  getById(Number) {}
 
-  deleteById(Number) {}
-  */
+  async getByid (numero){
+    const path =`./${this.file}`;
+    try {
+      const readJason=JSON.parse(await fs.promises.readFile(path,"utf-8"));
+      const objid=readJason.find(({id})=>id===numero;
+      if (!objid) return num;
+      return objid;
+        } catch (error) {
+      console.log('error: ',error)
+    }
+
+}
+ //getById(Number) {}
+
+  
+
 
 module.exports = Contenedor;
