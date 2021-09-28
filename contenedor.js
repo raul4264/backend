@@ -11,13 +11,14 @@ class Contenedor {
     try {
       const contenido = await fs.promises.readFile(`./${this.file}`, "utf-8");
 
+      
       let productos = [];
       if (contenido === "") {
         producto.id = 1;
         productos.push(producto);
       } else {
         const listaDeProductos = JSON.parse(contenido);
-        producto.id = listaDeProductos[listaDeProductos.length - 1].id + 1;
+        producto.id = listaDeProductos[listaDeProductos.length - 1]. id +1;
         listaDeProductos.push(producto);
         productos = listaDeProductos;
       }
@@ -31,25 +32,39 @@ class Contenedor {
     }
   }
   async getAll() {
-    try {
+    try{
       const contenido = await fs.promises.readFile(`./${this.file}`, "utf-8");
       const listaDeProductos = JSON.parse(contenido);
-      return listaDeProductos;
+      return listaDeProductos
     } catch (error) {
-      console.error(error);
-    }
+        console.error( error);
+      }
+  
   }
   async deleteAll() {
-    try {
-      await fs.promises.writeFile(`./${this.file}`, "");
+    try{
+    await fs.promises.writeFile(`./${this.file}`,'')
     } catch (error) {
-      console.error(error);
-    }
+        console.error( error);
+      }
+  
   }
-}
-/*  getById(Number) {}
 
-  deleteById(Number) {}
-  */
+  async getByid (numero){
+    const path =`./${this.file}`;
+    try {
+      const readJason=JSON.parse(await fs.promises.readFile(path,"utf-8"));
+      const objid=readJason.find(({id})=>id===numero;
+      if (!objid) return num;
+      return objid;
+        } catch (error) {
+      console.log('error: ',error)
+    }
+
+}
+ //getById(Number) {}
+
+  
+
 
 module.exports = Contenedor;
