@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "title": "cartuchera",
     "precio": 44.8,
     "id": 1
@@ -18,5 +19,140 @@
     "title": "cartuchera",
     "precio": 44.8,
     "id": 4
+=======
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 1
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 2
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 3
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 4
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 5
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 6
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 7
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 8
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 9
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 10
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 11
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 12
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 13
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 14
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 15
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 16
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 17
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 18
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 19
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 20
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 21
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 22
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 23
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 24
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 25
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 26
+  },
+  {
+    "title": "producto de prueba",
+    "precio": 200,
+    "id": 27
+>>>>>>> bce617a (quinto commit desafio Servidor con Express.)
   }
 ]
